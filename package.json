@@ -1,0 +1,26 @@
+{
+  "name": "m_ui_document",
+  "version": "1.0.0",
+  "author": {
+    "name": "csr",
+    "email": "madaocai@gmail.com"
+  },
+  "description": "Minimalist_UI 组件库的官方文档",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GreedyWhale/Minimalist_UI_Document.git"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GreedyWhale/Minimalist_UI_Document/issues"
+  },
+  "homepage": "https://github.com/GreedyWhale/Minimalist_UI_Document#readme",
+  "dependencies": {
+    "@csr/m_ui": "^0.0.96",
+    "vuepress": "^0.14.11"
+  }
+}
