@@ -1,7 +1,3 @@
-const path = require('path');
-function resolve (dir) {
-    return path.join(__dirname, dir)
-}
 module.exports = {
   title: 'Minimalist UI',
   description: '一个基于Vue.js构建的轻量，可靠的UI组件库',
@@ -12,7 +8,7 @@ module.exports = {
     displayAllHeaders: true,
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Guide', link: '/introduction/install' },
+      { text: 'Guide', link: '/introduction/introduce' },
       { text: 'GitHub', link: 'https://github.com/GreedyWhale/Minimalist_UI/tree/master' }
     ],
     sidebar: [
@@ -29,7 +25,10 @@ module.exports = {
         title: '组件',
         collapsable: false,
         children: [
-          '/components/button'
+          '/components/button',
+          '/components/button-group',
+          '/components/icon',
+          '/components/input',
         ]
       },
     ]

@@ -8,7 +8,8 @@
   "description": "Minimalist_UI 组件库的官方文档",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
   },
   "repository": {
     "type": "git",
@@ -21,6 +22,7 @@
   "homepage": "https://github.com/GreedyWhale/Minimalist_UI_Document#readme",
   "dependencies": {
     "@csr/m_ui": "^0.0.96",
+    "highlight.js": "^9.15.6",
     "vuepress": "^0.14.11"
   }
 }

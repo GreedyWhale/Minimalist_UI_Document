@@ -1,0 +1,36 @@
+.title {
+  margin-top: 40px;
+}
+.components-wrappper {
+  padding: 20px 10px 0;
+  border: 1px solid #ebebeb;
+  border-radius: 4px;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+h3 {
+  margin-top: 45px;
+  font-weight: normal;
+}
+.code {
+  margin-top: 30px;
+}
+table {
+  display: table;
+  width: 100%;
+}
+table th, td {
+  word-break: keep-all;
+  text-align: center;
+}
+.divider {
+  padding: 10px;
+}

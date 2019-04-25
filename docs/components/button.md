@@ -1,9 +1,20 @@
 ---
 title: Button 按钮
 ---
+# Button 按钮
+### 引入组件
+```vue
+<template>
+  <div>
+    <m-button>按钮</m-button>
+  </div>
+</template>
 
-## Button 按钮
-
-### 基本用法
-
+<script>
+  import { MButton } from "@csr/m_ui";
+  components: {
+    MButton
+  }
+</script>
+```
 <button-demos></button-demos>

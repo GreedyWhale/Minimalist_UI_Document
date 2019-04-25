@@ -2,7 +2,7 @@
 home: true
 heroImage: https://user-gold-cdn.xitu.io/2019/4/24/16a4ede11385c558?w=900&h=900&f=png&s=111733
 actionText: 快速上手 →
-actionLink: /introduction/install
+actionLink: /introduction/introduce
 features:
 - title: 简洁易用
   details: 组件API设计合理，简洁，开箱即用
