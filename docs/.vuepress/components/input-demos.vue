@@ -18,10 +18,10 @@
     <div class="components-wrappper">
       <m-input v-model="value" placeholder="请输入内容" clearable></m-input>
       <div class="code">代码</div>
-      <pre><code>{{ trimFromCodeStr(diablecode) }}</code></pre>
+      <pre><code>{{ trimFromCodeStr(clearableCode) }}</code></pre>
     </div>
 
-    <h3 class="title">带有Icon</h3>
+    <h3 class="title">带有图标</h3>
     <div class="components-wrappper">
       <div>
         <h5>属性方式：</h5>
@@ -149,13 +149,13 @@
         </tr>
         <tr>
           <td>suffix-icon</td>
-          <td>包含在输入框内部的后缀icon，可选值：参考MIcon组件</td>
+          <td>包含在输入框内部的后缀图标，可选值：参考MIcon组件</td>
           <td>string</td>
           <td>''</td>
         </tr>
         <tr>
           <td>prefix-icon</td>
-          <td>包含在输入框内部的前缀icon，可选值：参考MIcon组件</td>
+          <td>包含在输入框内部的前缀图标，可选值：参考MIcon组件</td>
           <td>string</td>
           <td>''</td>
         </tr>
@@ -167,7 +167,7 @@
         </tr>
         <tr>
           <td>suffix-button-icon</td>
-          <td>输入框后缀按钮icon，可选值：参考MIcon组件</td>
+          <td>输入框后缀按钮图标，可选值：参考MIcon组件</td>
           <td>string</td>
           <td>''</td>
         </tr>
@@ -179,7 +179,7 @@
         </tr>
         <tr>
           <td>prefix-button-icon</td>
-          <td>输入框前缀按钮icon，可选值：参考MIcon组件</td>
+          <td>输入框前缀按钮图标，可选值：参考MIcon组件</td>
           <td>string</td>
           <td>''</td>
         </tr>
@@ -198,7 +198,7 @@
         <tr>
           <th>事件名</th>
           <th>说明</th>
-          <th>返回值</th>
+          <th>回调参数</th>
         </tr>
       </thead>
       <tbody>
@@ -224,7 +224,7 @@
         </tr>
         <tr>
           <td>click-icon</td>
-          <td>在点击前后缀 icon 时触发</td>
+          <td>在点击前后缀 图标 时触发</td>
           <td>(event: Event, value: string | number)</td>
         </tr>
         <tr>
@@ -251,6 +251,7 @@
 import { MInput, MIcon } from "@csr/m_ui";
 import { highlightCode, trimFromCodeStr } from "../methods";
 export default {
+  name: 'input-demos',
   components: {
     MInput,
     MIcon

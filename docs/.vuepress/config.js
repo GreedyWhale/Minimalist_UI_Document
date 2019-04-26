@@ -29,6 +29,10 @@ module.exports = {
           '/components/button-group',
           '/components/icon',
           '/components/input',
+          '/components/grid',
+          '/components/layout',
+          '/components/toast',
+          '/components/tabs'
         ]
       },
     ]

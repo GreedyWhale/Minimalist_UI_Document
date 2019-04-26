@@ -12,8 +12,10 @@ title: Icon 图标
 
 <script>
   import { MIcon } from "@csr/m_ui";
-  components: {
-    MIcon
+  export default {
+    components: {
+      MIcon
+    }
   }
 </script>
 ```

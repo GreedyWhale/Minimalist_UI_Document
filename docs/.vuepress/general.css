@@ -28,9 +28,18 @@ table {
   width: 100%;
 }
 table th, td {
-  word-break: keep-all;
   text-align: center;
+  word-break: keep-all;
+}
+table tbody tr td:first-child {
+  white-space: nowrap;
 }
 .divider {
   padding: 10px;
+}
+.icon-font {
+  width: 1em; height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
 }

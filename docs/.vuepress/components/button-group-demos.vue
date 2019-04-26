@@ -26,6 +26,7 @@
 import { MButton, MButtonGroup } from "@csr/m_ui";
 import { highlightCode, trimFromCodeStr } from "../methods";
 export default {
+  name: 'button-group-demos',
   components: {
     MButton,
     MButtonGroup

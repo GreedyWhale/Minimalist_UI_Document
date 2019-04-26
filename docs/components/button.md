@@ -12,8 +12,10 @@ title: Button 按钮
 
 <script>
   import { MButton } from "@csr/m_ui";
-  components: {
-    MButton
+  export default {
+    components: {
+      MButton
+    }
   }
 </script>
 ```

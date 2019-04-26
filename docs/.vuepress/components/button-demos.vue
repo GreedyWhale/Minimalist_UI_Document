@@ -58,7 +58,7 @@
       <div class="code">代码</div>
       <pre><code>{{ trimFromCodeStr(withIconCode) }}</code></pre>
     </div>
-    <h3 class="title">通过slot设置icon</h3>
+    <h3 class="title">通过slot设置图标</h3>
     <div class="components-wrappper">
       <ul>
         <li>
@@ -66,10 +66,10 @@
             <template v-slot:prefix>
               <m-icon icon="upload"></m-icon>
             </template>
-            自定义icon
+            自定义图标
           </m-button>
           <m-button :options="{shape: 'rounded', iconPosition:'right'}">
-            自定义icon
+            自定义图标
             <template v-slot:prefix>
               <m-icon icon="date"></m-icon>
             </template>
@@ -77,7 +77,7 @@
         </li>
       </ul>
       <div class="code">代码</div>
-      <pre><code>{{ trimFromCodeStr(withIconCode) }}</code></pre>
+      <pre><code>{{ trimFromCodeStr(slotCode) }}</code></pre>
     </div>
     <div class="api-wrapper">
       <h3 class="title">API</h3>
@@ -167,7 +167,7 @@
           <tr>
             <th>事件名</th>
             <th>说明</th>
-            <th>返回值</th>
+            <th>回调参数</th>
           </tr>
         </thead>
         <tbody>
@@ -187,6 +187,7 @@ import { MButton, MIcon } from "@csr/m_ui";
 import { highlightCode, trimFromCodeStr } from "../methods";
 
 export default {
+  name: 'button-demos',
   components: {
     MButton,
     MIcon
@@ -223,10 +224,25 @@ export default {
         <m-button :options="{shape: 'rounded', disable: true}">禁用</m-button>
       `,
       withIconCode: `
-        通过options中的icon定义icon，iconPosition定义icon出现的位置
+        通过options中的icon定义图标，iconPosition定义图标出现的位置
         <m-button :options="{shape:'rounded', icon:'search'}">搜索</m-button>
         <m-button :options="{icon:'delete', iconPosition:'right', type:'solid'}">删除</m-button>
         <m-button :options="{color:'yellow', shape:'rounded', isLoading:true, type:'solid'}">加载中</m-button>
+      `,
+      slotCode: `
+        v-slot:prefix 前缀图标 v-slot:prefix 后缀图标
+        <m-button :options="{shape: 'rounded', iconPosition:'left'}">
+          <template v-slot:prefix>
+            <m-icon icon="upload"></m-icon>
+          </template>
+          自定义图标
+        </m-button>
+        <m-button :options="{shape: 'rounded', iconPosition:'right'}">
+          自定义图标
+          <template v-slot:prefix>
+            <m-icon icon="date"></m-icon>
+          </template>
+        </m-button>
       `
     }
   },

@@ -16,9 +16,11 @@ title: ButtonGroup 按钮组
 
 <script>
   import { MButton, MButtonGroup } from "@csr/m_ui";
-  components: {
-    MButton,
-    MButtonGroup
+  export default {
+    components: {
+      MButton,
+      MButtonGroup
+    }
   }
 </script>
 ```

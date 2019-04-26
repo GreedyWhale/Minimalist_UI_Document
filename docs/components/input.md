@@ -12,8 +12,10 @@ title: Input 输入框
 
 <script>
   import { MInput } from "@csr/m_ui";
-  components: {
-    MInput
+  export default { 
+    components: {
+      MInput
+    }
   }
 </script>
 ```
