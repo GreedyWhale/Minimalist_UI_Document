@@ -163,13 +163,12 @@
         <tr>
           <td>on-click</td>
           <td>点击选项卡时触发</td>
-          <td>点击的选项卡的name值，例如示例中，点击第一个选项卡就是 'dayToDay'</td>
+          <td>(name: string | number)</td>
         </tr>
         <tr>
           <td>update:selected</td>
-          <td>选项卡选中时触发</td>
           <td>
-            选中的选项卡的name值，可以使用.sync修饰符，或直接监听事件。例如：
+            选项卡选中时触发
             <div class="td-code">
               <code>
                 {{ trimFromCodeStr(exampleCode1) }}
@@ -181,6 +180,7 @@
               </code>
             </div>
           </td>
+          <td>(name: string | number)</td>
         </tr>
       </tbody>
     </table>

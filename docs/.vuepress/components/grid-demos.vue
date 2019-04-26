@@ -210,7 +210,6 @@ export default {
     return {
       trimFromCodeStr: trimFromCodeStr,
       code: `
-        span 控制每个格子占据的列数，最大24
         <m-row>
           <m-col :span="24"><div class="box dark"></div></m-col>
         </m-row>
@@ -239,7 +238,6 @@ export default {
         </m-row>
       `,
       gutterCode: `
-        gutter 控制间距距离
         <m-row :gutter="20">
           <m-col :span="8"><div class="box dark"></div></m-col>
           <m-col :span="8"><div class="box dark"></div></m-col>
@@ -253,7 +251,6 @@ export default {
         </m-row>
       `,
       offsetCode: `
-        offset 控制间隔格数
         <m-row>
           <m-col :span="6"><div class="box dark"></div></m-col>
           <m-col :span="6" :offset="6"><div class="box dark"></div></m-col>
@@ -267,7 +264,6 @@ export default {
         </m-row>
       `,
       alignCode: `
-        align 控制对齐方式
         <m-row :gutter="10" align="left">
           <m-col :span="6"><div class="box dark"></div></m-col>
           <m-col :span="6"><div class="box dark"></div></m-col>

@@ -185,7 +185,7 @@
         </tr>
         <tr>
           <td>v-model</td>
-          <td>同vue的v-model功能，可同步更新v-model中的值</td>
+          <td>input的value，可同步更新v-model中的值</td>
           <td>string</td>
           <td>''</td>
         </tr>
@@ -272,7 +272,6 @@ export default {
         <\/script>
       `,
       diablecode: `
-        通过 disabled 控制
         <m-input v-model="value" placeholder="请输入内容" disabled></m-input>
 
         <script>
@@ -284,7 +283,6 @@ export default {
         <\/script>
       `,
       clearableCode: `
-        通过 clearable 控制
         <m-input v-model="value" placeholder="请输入内容" clearable></m-input>
 
         <script>
@@ -296,11 +294,9 @@ export default {
         <\/script>
       `,
       iconCode: `
-        属性方式 prefix-icon（前缀图标）suffix-icon（后缀图标）
         <m-input v-model="value" placeholder="请输入内容" prefix-icon="search"></m-input>
         <m-input v-model="value" placeholder="请输入内容" clearable suffix-icon="delete"></m-input>
         
-        slot方式 v-slot:prefixIcon （前缀图标）v-slot:suffixIcon（后缀图标）
         <m-input v-model="value" placeholder="请输入内容">
           <template v-slot:prefixIcon>
             <m-icon icon="search"></m-icon>
@@ -363,7 +359,6 @@ export default {
         <\/script>
       `,
       promptCode: `
-        提示内容：prompt-msg ， 提示位置 prompt-msg-position，是否为错误提示 is-error-msg
         <m-input v-model="value" placeholder="请输入内容" prompt-msg="用户名长度在2~8个字符"></m-input>
         <m-input v-model="value" placeholder="请输入内容" prompt-msg="密码长度在10~12个字符" prompt-msg-position="down"></m-input>
         <m-input v-model="value" placeholder="请输入内容" prompt-msg="邮箱地址错误" :is-error-msg="true"></m-input>

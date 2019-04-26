@@ -196,7 +196,6 @@ export default {
     return {
       trimFromCodeStr: trimFromCodeStr,
       basicCode: `
-        通过options中的color定义颜色
         <m-button>按钮</m-button>
         <m-button :options="{color: 'green'}">按钮</m-button>
         <m-button :options="{color: 'blue'}">按钮</m-button>
@@ -204,7 +203,6 @@ export default {
         <m-button :options="{color: 'red'}">按钮</m-button>
         <m-button :options="{color: 'purple'}">按钮</m-button>
 
-        通过options中的type定义按钮是否为实心
         <m-button :options="{type: 'solid'}">按钮</m-button>
         <m-button :options="{color: 'green', type: 'solid'}">按钮</m-button>
         <m-button :options="{color: 'blue', type: 'solid'}">按钮</m-button>
@@ -213,24 +211,20 @@ export default {
         <m-button :options="{color: 'purple', type: 'solid'}">按钮</m-button>
         `,
       shapeCode: `
-        通过options中的shape定义按钮的圆角
         <m-button>按钮</m-button>
         <m-button :options="{color: 'green', shape: 'rounded'}">按钮</m-button>
         <m-button :options="{color: 'blue', shape: 'pill'}">按钮</m-button>
         <m-button :options="{color: 'purple', shape: 'circle', icon: 'search'}"></m-button>
         `,
       disableCode: `
-        通过options中的disable定义按钮是否禁用
         <m-button :options="{shape: 'rounded', disable: true}">禁用</m-button>
       `,
       withIconCode: `
-        通过options中的icon定义图标，iconPosition定义图标出现的位置
         <m-button :options="{shape:'rounded', icon:'search'}">搜索</m-button>
         <m-button :options="{icon:'delete', iconPosition:'right', type:'solid'}">删除</m-button>
         <m-button :options="{color:'yellow', shape:'rounded', isLoading:true, type:'solid'}">加载中</m-button>
       `,
       slotCode: `
-        v-slot:prefix 前缀图标 v-slot:prefix 后缀图标
         <m-button :options="{shape: 'rounded', iconPosition:'left'}">
           <template v-slot:prefix>
             <m-icon icon="upload"></m-icon>

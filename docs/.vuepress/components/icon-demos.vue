@@ -90,7 +90,6 @@ export default {
     return {
       trimFromCodeStr: trimFromCodeStr,
       code: `
-        通过icon属性来选择不同的图标
         <m-icon icon="date"></m-icon>
         <m-icon icon="double-arrow-right"></m-icon>
         <m-icon icon="double-arrow-left"></m-icon>
@@ -114,7 +113,6 @@ export default {
         <m-icon :is-loading="true"></m-icon>
       `,
       customCode: `
-        这里使用的是iconfont的symbol引用方式自定义图标，可以使用其他方式。
         <m-icon>
           <svg class="icon-font" aria-hidden="true">
             <use xlink:href="#icon-funny"></use>

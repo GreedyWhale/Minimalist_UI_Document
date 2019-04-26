@@ -158,7 +158,6 @@ export default {
         <\/script>
       `,
       positionCode: `
-        position 用于定义toast展示的位置
         <m-button @click="showToastWithPosition('上面的朋友', 'top')">上</m-button>
         <m-button @click="showToastWithPosition('左面的朋友', 'left')">左</m-button>
         <m-button @click="showToastWithPosition('中间的朋友', 'middle')">中</m-button>
@@ -179,7 +178,6 @@ export default {
         <\/script>
       `,
       statusCode: `
-        icon 用于定义不同状态的图标
         <m-button @click="showToastWithStatus('成功', 'success')">成功</m-button>
         <m-button @click="showToastWithStatus('警告', 'warning')">警告</m-button>
         <m-button @click="showToastWithStatus('提示', 'tips')">提示</m-button>
@@ -197,7 +195,6 @@ export default {
         <\/script>
       `,
       closeCode: `
-        设置autoClose为false，showCloseButton 为true 即可手动关闭
         <m-button @click="showToastWithCloseButton">手动关闭</m-button>
 
         <script>
@@ -214,7 +211,6 @@ export default {
         <\/script>
       `,
       htmlCode: `
-        设置enbleHtml 为true 即可传入HTML 片段，但是这样做会有安全风险
         <m-button @click="showToastWithHTML">使用 HTML 片段</m-button>
 
         <script>
