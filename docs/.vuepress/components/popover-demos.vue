@@ -62,7 +62,7 @@
     </div>
 
     <h3 class="title">API</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -96,7 +96,7 @@
       </tbody>
     </table>
     <h3 class="title">事件</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>事件名</th>

@@ -94,7 +94,7 @@
     </div>
     <h3 class="title">API</h3>
     <h3 class="title">MTabs</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -111,7 +111,7 @@
     </table>
 
     <h3 class="title">MTabsItem</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -120,7 +120,7 @@
       <tbody>
         <tr>
           <td>name</td>
-          <td>选项卡标识，name值唯一</td>
+          <td>选项卡标识，必传，该属性的值唯一。</td>
           <td>string | number</td>
           <td></td>
         </tr>
@@ -134,7 +134,7 @@
     </table>
 
     <h3 class="title">MTabsPane</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -151,7 +151,7 @@
     </table>
 
     <h3 class="title">事件</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>事件名</th>

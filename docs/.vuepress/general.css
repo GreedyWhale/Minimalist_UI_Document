@@ -6,32 +6,28 @@
   border: 1px solid #ebebeb;
   border-radius: 4px;
 }
-ul, li {
+.buttons, .buttons li {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-li {
+.buttons li {
   display: flex;
   align-items: center;
   margin-bottom: 20px;
 }
-h3 {
-  margin-top: 45px;
-  font-weight: normal;
-}
 .code {
   margin-top: 30px;
 }
-table {
+.table {
   display: table;
   width: 100%;
 }
-table th, td {
+.table th, td {
   text-align: center;
   word-break: keep-all;
 }
-table tbody tr td:first-child {
+.table tbody tr td:first-child {
   white-space: nowrap;
 }
 .divider {

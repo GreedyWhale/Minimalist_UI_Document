@@ -70,7 +70,7 @@
 
     <h3 class="title">API</h3>
     <h3 class="title">MCollapse</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -98,7 +98,7 @@
       </tbody>
     </table>
     <h3 class="title">MCollapseItem</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>属性</th><th>说明</th><th>类型</th><th>默认值</th>
@@ -113,14 +113,14 @@
         </tr>
         <tr>
           <td>name</td>
-          <td>面板的唯一标识，必传</td>
+          <td>面板的标识，必传，该属性的值唯一。</td>
           <td>string | number </td>
           <td></td>
         </tr>
       </tbody>
     </table>
     <h3 class="title">事件</h3>
-    <table>
+    <table class="table">
       <thead>
         <tr>
           <th>事件名</th>
