@@ -37,7 +37,10 @@ module.exports = {
           '/components/collapse',
           '/components/cascader',
           '/components/swiper',
-          "/components/menu"
+          "/components/menu",
+          "/components/pagination",
+          "/components/table",
+          "/components/upload",
         ]
       },
     ]
