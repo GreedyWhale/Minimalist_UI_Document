@@ -14,7 +14,7 @@ title: 介绍
 ### Minimalist UI
 Minimalist UI是我在学习Vue.js的过程中做的一个UI库，里面包含了常用的一些UI组件，希望对你有用！！
 
-目前是1.0.0的版本，已通过测试，可以放心食用O(∩_∩)O~~
+目前是1.x的版本，已通过测试，可以放心食用O(∩_∩)O~~
 
 ### 特点
 1. 项目使用Vue.js + Typescript开发

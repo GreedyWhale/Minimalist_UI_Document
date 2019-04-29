@@ -723,10 +723,10 @@
     lodash "^4.17.5"
     to-fast-properties "^2.0.0"
 
-"@csr/m_ui@^0.0.96":
-  version "0.0.96"
-  resolved "https://registry.yarnpkg.com/@csr/m_ui/-/m_ui-0.0.96.tgz#669278b6ff8eeafbdc13ba6e1c8ea97fd5dd8648"
-  integrity sha512-ch8k9Wd9S5c8ScrO4/KQxoZWi7/iKWYjgE50PUVhlWlbTr5Xb/srvKwfe/oZp6Wv8zQA4V0lMK1R1mAMMw0q3A==
+"@csr/m_ui@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@csr/m_ui/-/m_ui-1.0.2.tgz#d41608e3effee452b7162be012d0aa768ec96784"
+  integrity sha512-EZ9/NOAMPA0ElVtcyYjuJ8LYrQeWRAk5ItSAlYCw/28Ctv5zOeZpTti5T1DFlQjVcrUCPXJwA4dVsRXZH6o7zQ==
   dependencies:
     vue "^2.6.6"
     vue-class-component "^6.0.0"

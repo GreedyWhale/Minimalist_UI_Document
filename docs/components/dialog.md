@@ -28,4 +28,6 @@ title: Dialog 对话框
   }
 </script>
 ```
+<ClientOnly>
 <dialog-demos></dialog-demos>
+</ClientOnly>

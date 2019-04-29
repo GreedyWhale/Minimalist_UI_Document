@@ -24,7 +24,9 @@ title: ButtonGroup 按钮组
   }
 </script>
 ```
+<ClientOnly>
 <button-group-demos></button-group-demos>
+</ClientOnly>
 
 ### 注意
 ::: warning

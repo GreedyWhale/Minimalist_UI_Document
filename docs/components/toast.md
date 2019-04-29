@@ -31,4 +31,6 @@ title: Toast 消息提示
   }
 </script>
 ```
+<ClientOnly>
 <toast-demos></toast-demos>
+</ClientOnly>
