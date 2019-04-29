@@ -8,7 +8,7 @@ module.exports = {
     displayAllHeaders: true,
     nav: [
       { text: '主页', link: '/' },
-      { text: 'Guide', link: '/introduction/introduce' },
+      { text: '指南', link: '/introduction/introduce' },
       { text: 'GitHub', link: 'https://github.com/GreedyWhale/Minimalist_UI/tree/master' }
     ],
     sidebar: [
@@ -34,6 +34,7 @@ module.exports = {
           '/components/toast',
           '/components/tabs',
           '/components/popover',
+          '/components/dialog',
           '/components/collapse',
           '/components/cascader',
           '/components/swiper',
@@ -41,6 +42,8 @@ module.exports = {
           "/components/pagination",
           "/components/table",
           "/components/upload",
+          "/components/sticky",
+          "/components/date-picker",
         ]
       },
     ]
