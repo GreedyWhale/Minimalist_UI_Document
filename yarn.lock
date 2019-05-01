@@ -724,9 +724,9 @@
     to-fast-properties "^2.0.0"
 
 "@csr/m_ui@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@csr/m_ui/-/m_ui-1.0.2.tgz#d41608e3effee452b7162be012d0aa768ec96784"
-  integrity sha512-EZ9/NOAMPA0ElVtcyYjuJ8LYrQeWRAk5ItSAlYCw/28Ctv5zOeZpTti5T1DFlQjVcrUCPXJwA4dVsRXZH6o7zQ==
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/@csr/m_ui/-/m_ui-1.0.4.tgz#12b7346859284ba7291038f5374444df4b433248"
+  integrity sha512-DhAgpsMNv9q1zyQ12TzItFnpi/C7G6P4t6m+zU8Eio1Ei0Kn3jvlnQ9uVy2Hyff20mZYlHIKpiMX0bK3wn82dQ==
   dependencies:
     vue "^2.6.6"
     vue-class-component "^6.0.0"
