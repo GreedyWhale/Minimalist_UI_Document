@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Upload 上传 | Minimalist UI</title>
+    <meta name="description" content="一个基于Vue.js构建的轻量，可靠的UI组件库">
+    <link rel="shortcut icon" type="image/x-icon" href="/Minimalist_UI_Document/icon.png">
+    
+    <link rel="preload" href="/Minimalist_UI_Document/assets/css/0.styles.1c377675.css" as="style"><link rel="preload" href="/Minimalist_UI_Document/assets/js/app.74078fcb.js" as="script"><link rel="preload" href="/Minimalist_UI_Document/assets/js/43.d2a21dc4.js" as="script"><link rel="preload" href="/Minimalist_UI_Document/assets/js/21.3777848e.js" as="script"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/1.37ec03be.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/10.49b11131.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/11.40c290b7.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/12.2078b121.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/13.2e1e3f7d.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/14.532ca76f.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/15.cb03850a.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/16.a9c0e95a.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/17.c7b918d0.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/18.6b319db0.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/19.f63213a4.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/20.bcbb0856.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/22.b12fa342.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/23.338bba37.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/24.7acbaea9.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/25.57f3e003.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/26.d0e84666.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/27.2489f855.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/28.df93c6a0.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/29.b9a5596a.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/3.8eb1f875.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/30.a99d40dd.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/31.210ef95e.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/32.aee13667.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/33.3be9c333.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/34.7470e3e7.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/35.cd398dc5.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/36.9366d74a.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/37.82d3ad9a.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/38.c4489f28.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/39.ae74e2e7.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/4.6d6565f9.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/40.f8927e2e.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/41.ee4f5ce1.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/42.e2a907aa.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/44.c9c6d8e1.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/45.f3df416e.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/46.45a1575c.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/47.399319db.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/48.6e353875.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/5.871f545b.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/6.97741bc8.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/7.cf935810.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/8.c457bf95.js"><link rel="prefetch" href="/Minimalist_UI_Document/assets/js/9.1bd3d2a4.js">
+    <link rel="stylesheet" href="/Minimalist_UI_Document/assets/css/0.styles.1c377675.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/Minimalist_UI_Document/" class="home-link router-link-active"><!----> <span class="site-name">Minimalist UI</span></a> <div class="links" style="max-width:nullpx;"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/Minimalist_UI_Document/" class="nav-link">主页</a></div><div class="nav-item"><a href="/Minimalist_UI_Document/introduction/introduce.html" class="nav-link">指南</a></div><div class="nav-item"><a href="https://github.com/GreedyWhale/Minimalist_UI/tree/master" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <div class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/Minimalist_UI_Document/" class="nav-link">主页</a></div><div class="nav-item"><a href="/Minimalist_UI_Document/introduction/introduce.html" class="nav-link">指南</a></div><div class="nav-item"><a href="https://github.com/GreedyWhale/Minimalist_UI/tree/master" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  GitHub
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/Minimalist_UI_Document/" class="sidebar-link">Home</a></li><li><div class="sidebar-group"><p class="sidebar-heading"><span>快速上手</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/Minimalist_UI_Document/introduction/introduce.html" class="sidebar-link">介绍</a></li><li><a href="/Minimalist_UI_Document/introduction/install.html" class="sidebar-link">安装</a></li><li><a href="/Minimalist_UI_Document/introduction/usage.html" class="sidebar-link">使用</a></li></ul></div></li><li><div class="sidebar-group"><p class="sidebar-heading open"><span>组件</span> <!----></p> <ul class="sidebar-group-items"><li><a href="/Minimalist_UI_Document/components/button.html" class="sidebar-link">Button 按钮</a></li><li><a href="/Minimalist_UI_Document/components/button-group.html" class="sidebar-link">ButtonGroup 按钮组</a></li><li><a href="/Minimalist_UI_Document/components/icon.html" class="sidebar-link">Icon 图标</a></li><li><a href="/Minimalist_UI_Document/components/input.html" class="sidebar-link">Input 输入框</a></li><li><a href="/Minimalist_UI_Document/components/grid.html" class="sidebar-link">Grid 网格</a></li><li><a href="/Minimalist_UI_Document/components/layout.html" class="sidebar-link">Layout 布局</a></li><li><a href="/Minimalist_UI_Document/components/toast.html" class="sidebar-link">Toast 消息提示</a></li><li><a href="/Minimalist_UI_Document/components/tabs.html" class="sidebar-link">Tabs 标签页</a></li><li><a href="/Minimalist_UI_Document/components/popover.html" class="sidebar-link">Popover 气泡卡片</a></li><li><a href="/Minimalist_UI_Document/components/dialog.html" class="sidebar-link">Dialog 对话框</a></li><li><a href="/Minimalist_UI_Document/components/collapse.html" class="sidebar-link">Collapse 折叠面板</a></li><li><a href="/Minimalist_UI_Document/components/cascader.html" class="sidebar-link">Cascader 级联选择器</a></li><li><a href="/Minimalist_UI_Document/components/swiper.html" class="sidebar-link">Swiper 轮播</a></li><li><a href="/Minimalist_UI_Document/components/menu.html" class="sidebar-link">Menu 菜单</a></li><li><a href="/Minimalist_UI_Document/components/pagination.html" class="sidebar-link">Pagination 分页</a></li><li><a href="/Minimalist_UI_Document/components/table.html" class="sidebar-link">Table 表格</a></li><li><a href="/Minimalist_UI_Document/components/upload.html" class="active sidebar-link">Upload 上传</a><ul class="sidebar-sub-headers"></ul></li><li><a href="/Minimalist_UI_Document/components/sticky.html" class="sidebar-link">Sticky 粘性定位</a></li><li><a href="/Minimalist_UI_Document/components/date-picker.html" class="sidebar-link">DatePicker 日期选择器</a></li></ul></div></li></ul> </div> <div class="page"> <div class="content"><h1 id="upload-上传"><a href="#upload-上传" aria-hidden="true" class="header-anchor">#</a> Upload 上传</h1> <h3 id="引入组件"><a href="#引入组件" aria-hidden="true" class="header-anchor">#</a> 引入组件</h3> <div class="language-vue extra-class"><pre class="language-vue"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>m-upload</span>
+    <span class="token attr-name">action</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://img-node-server.herokuapp.com/upload<span class="token punctuation">&quot;</span></span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>avatar<span class="token punctuation">&quot;</span></span>
+    <span class="token attr-name">:default-file-list</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>fileList<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>m-button</span><span class="token punctuation">&gt;</span></span>点击上传<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>m-button</span><span class="token punctuation">&gt;</span></span>
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name"><span class="token namespace">v-slot:</span>tips</span><span class="token punctuation">&gt;</span></span>
+      示例代码中的上传地址在heroku上，所以需要科学上网才能上传成功
+    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>m-upload</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">&gt;</span></span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span><span class="token punctuation">&gt;</span></span><span class="token script"><span class="token language-javascript">
+  <span class="token keyword">import</span> <span class="token punctuation">{</span> MUpload <span class="token punctuation">}</span> <span class="token keyword">from</span> <span class="token string">&quot;@csr/m_ui&quot;</span><span class="token punctuation">;</span>
+
+  <span class="token keyword">export</span> <span class="token keyword">default</span> <span class="token punctuation">{</span>
+    components<span class="token punctuation">:</span> <span class="token punctuation">{</span>
+      MUpload
+    <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token function">data</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
+      <span class="token keyword">return</span> <span class="token punctuation">{</span>
+        fileList<span class="token punctuation">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">'avatar0.jpg'</span><span class="token punctuation">,</span> url<span class="token punctuation">:</span> <span class="token string">'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'</span><span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span>name<span class="token punctuation">:</span> <span class="token string">'avatar1.jpg'</span><span class="token punctuation">,</span> url<span class="token punctuation">:</span> <span class="token string">'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'</span><span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span>
+    <span class="token punctuation">}</span>
+  <span class="token punctuation">}</span>
+</span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><div data-v-a2166642><h3 class="title" data-v-a2166642>基础用法</h3> <div class="components-wrappper" data-v-a2166642><m-upload action="https://img-node-server.herokuapp.com/upload" name="avatar" default-file-list="[object Object],[object Object]" data-v-a2166642><m-button data-v-a2166642>点击上传</m-button></m-upload> <div class="code" data-v-a2166642>代码</div> <pre data-v-a2166642><code data-v-a2166642>&lt;m-upload
+  action=&quot;https://img-node-server.herokuapp.com/upload&quot; name=&quot;avatar&quot;
+  :default-file-list=&quot;fileList&quot;&gt;
+  &lt;m-button&gt;点击上传&lt;/m-button&gt;
+  &lt;template v-slot:tips&gt;
+    示例代码中的上传服务部署在heroku上，所以需要科学上网才能上传成功
+  &lt;/template&gt;
+&lt;/m-upload&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        fileList: [
+          {name: 'avatar0.jpg', url: 'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'},
+          {name: 'avatar1.jpg', url: 'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'}
+        ]
+      }
+    }
+  }
+&lt;/script&gt;</code></pre></div> <h3 class="title" data-v-a2166642>缩略图模式</h3> <div class="components-wrappper" data-v-a2166642><m-upload action="https://img-node-server.herokuapp.com/upload" name="avatar" default-file-list="[object Object],[object Object]" list-type="picture" data-v-a2166642><m-button data-v-a2166642>点击上传</m-button></m-upload> <div class="code" data-v-a2166642>代码</div> <pre data-v-a2166642><code data-v-a2166642>&lt;m-upload
+  action=&quot;https://img-node-server.herokuapp.com/upload&quot; name=&quot;avatar&quot;
+  :default-file-list=&quot;fileList&quot; list-type=&quot;picture&quot;&gt;
+  &lt;m-button&gt;点击上传&lt;/m-button&gt;
+  &lt;template v-slot:tips&gt;
+    示例代码中的上传服务部署在heroku上，所以需要科学上网才能上传成功
+  &lt;/template&gt;
+&lt;/m-upload&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        fileList: [
+          {name: 'avatar0.jpg', url: 'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'},
+          {name: 'avatar1.jpg', url: 'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'}
+        ]
+      }
+    }
+  }
+&lt;/script&gt;</code></pre></div> <h3 class="title" data-v-a2166642>卡片模式</h3> <div class="components-wrappper" data-v-a2166642><m-upload action="https://img-node-server.herokuapp.com/upload" name="avatar" default-file-list="[object Object],[object Object]" list-type="card" data-v-a2166642><m-button data-v-a2166642>点击上传</m-button></m-upload> <div class="code" data-v-a2166642>代码</div> <pre data-v-a2166642><code data-v-a2166642>&lt;m-upload
+  action=&quot;https://img-node-server.herokuapp.com/upload&quot; name=&quot;avatar&quot;
+  :default-file-list=&quot;fileList&quot; list-type=&quot;card&quot;&gt;
+  &lt;m-button&gt;点击上传&lt;/m-button&gt;
+  &lt;template v-slot:tips&gt;
+    示例代码中的上传服务部署在heroku上，所以需要科学上网才能上传成功
+  &lt;/template&gt;
+&lt;/m-upload&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        fileList: [
+          {name: 'avatar0.jpg', url: 'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'},
+          {name: 'avatar1.jpg', url: 'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'}
+        ]
+      }
+    }
+  }
+&lt;/script&gt;</code></pre></div> <h3 class="title" data-v-a2166642>手动上传</h3> <div class="components-wrappper" data-v-a2166642><m-upload action="https://img-node-server.herokuapp.com/upload" name="avatar" default-file-list="[object Object],[object Object]" data-v-a2166642><m-button data-v-a2166642>选择图片</m-button></m-upload> <div class="code" data-v-a2166642>代码</div> <pre data-v-a2166642><code data-v-a2166642>&lt;m-upload
+  action=&quot;https://img-node-server.herokuapp.com/upload&quot; name=&quot;avatar&quot;
+  :default-file-list=&quot;fileList&quot; :auto-upload=&quot;false&quot;&gt;
+  &lt;m-button&gt;选择图片&lt;/m-button&gt;
+  &lt;template v-slot:tips&gt;
+    示例代码中的上传服务部署在heroku上，所以需要科学上网才能上传成功
+  &lt;/template&gt;
+  &lt;template v-slot:submit=&quot;slotProps&quot;&gt;
+    &lt;div class=&quot;manual-upload&quot;&gt;
+      &lt;m-button @click=&quot;slotProps.submit&quot;&gt;手动上传&lt;/m-button&gt;
+    &lt;/div&gt;
+  &lt;/template&gt;
+&lt;/m-upload&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        fileList: [
+          {name: 'avatar0.jpg', url: 'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'},
+          {name: 'avatar1.jpg', url: 'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'}
+        ]
+      }
+    }
+  }
+&lt;/script&gt;</code></pre></div> <h3 class="title" data-v-a2166642>拖拽上传</h3> <div class="components-wrappper" data-v-a2166642><m-upload action="https://img-node-server.herokuapp.com/upload" name="avatar" default-file-list="[object Object],[object Object]" data-v-a2166642><div class="upload-box" data-v-a2166642>
+        拖拽上传
+      </div></m-upload> <div class="code" data-v-a2166642>代码</div> <pre data-v-a2166642><code data-v-a2166642>&lt;m-upload
+  action=&quot;https://img-node-server.herokuapp.com/upload&quot; name=&quot;avatar&quot;
+  :default-file-list=&quot;fileList&quot;&gt;
+  &lt;div class=&quot;upload-box&quot;&gt;
+    拖拽上传
+  &lt;/div&gt;
+  &lt;template v-slot:tips&gt;
+    示例代码中的上传服务部署在heroku上，所以需要科学上网才能上传成功
+  &lt;/template&gt;
+&lt;/m-upload&gt;
+
+&lt;script&gt;
+  export default {
+    data() {
+      return {
+        fileList: [
+          {name: 'avatar0.jpg', url: 'http://img1.imgtn.bdimg.com/it/u=2627188576,3710023153&amp;fm=26&amp;gp=0.jpg'},
+          {name: 'avatar1.jpg', url: 'http://img4.imgtn.bdimg.com/it/u=1142211080,3689420364&amp;fm=15&amp;gp=0.jpg'}
+        ]
+      }
+    }
+  }
+&lt;/script&gt;</code></pre></div> <h3 class="title" data-v-a2166642>API</h3> <table class="table" data-v-a2166642><thead data-v-a2166642><tr data-v-a2166642><th data-v-a2166642>属性</th><th data-v-a2166642>说明</th><th data-v-a2166642>类型</th><th data-v-a2166642>默认值</th></tr></thead> <tbody data-v-a2166642><tr data-v-a2166642><td data-v-a2166642>action</td> <td data-v-a2166642>图片上传服务器地址，必传</td> <td data-v-a2166642>string</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>name</td> <td data-v-a2166642>上传文件时的名称，作用和input控件中的name属性相同，必传</td> <td data-v-a2166642>string</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>method</td> <td data-v-a2166642>上传文件时请求方法</td> <td data-v-a2166642>string</td> <td data-v-a2166642>POST</td></tr> <tr data-v-a2166642><td data-v-a2166642>auto-upload</td> <td data-v-a2166642>是否开启自动上传</td> <td data-v-a2166642>boolean</td> <td data-v-a2166642>true</td></tr> <tr data-v-a2166642><td data-v-a2166642>multiple</td> <td data-v-a2166642>是否开启多选</td> <td data-v-a2166642>boolean</td> <td data-v-a2166642>false</td></tr> <tr data-v-a2166642><td data-v-a2166642>accept</td> <td data-v-a2166642>
+          限制允许的文件类型，详情查看：
+          <a href="https://developer.mozilla.org/zh-CN/docs/Web/HTML/Element/Input/file" data-v-a2166642>
+          input type=&quot;file&quot;</a></td> <td data-v-a2166642>string</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>default-file-list</td> <td data-v-a2166642>默认展示的文件，该数组中的每一项必须包含以下属性：{ name: 'xxx', url: 'xxx'}</td> <td data-v-a2166642>array</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>before-remove</td> <td data-v-a2166642>文件删除之前的钩子，参数为(file: 删除的文件, fileList: 当前的文件列表)</td> <td data-v-a2166642>function</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>before-upload</td> <td data-v-a2166642>
+          文件上传之前的钩子，参数为参数为(file: 上传的文件, fileList: 当前的文件列表)，
+          若返回 false 或者返回 Promise 且被 reject，则停止上传。
+        </td> <td data-v-a2166642>function</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>headers</td> <td data-v-a2166642>
+          设置上传的请求头部
+        </td> <td data-v-a2166642>object</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>with-credentials</td> <td data-v-a2166642>
+          上传请求时是否携带 cookie	
+        </td> <td data-v-a2166642>object</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>list-type</td> <td data-v-a2166642>
+          文件列表展示类型，可选值：picture（缩略图模式），card（卡片模式）
+        </td> <td data-v-a2166642>string</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>size</td> <td data-v-a2166642>
+          上传文件大小，单位KB
+        </td> <td data-v-a2166642>number</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>limit</td> <td data-v-a2166642>
+          最大允许上传个数
+        </td> <td data-v-a2166642>number</td> <td data-v-a2166642></td></tr> <tr data-v-a2166642><td data-v-a2166642>visible-file-list</td> <td data-v-a2166642>
+          是否展示文件列表
+        </td> <td data-v-a2166642>boolean</td> <td data-v-a2166642>true</td></tr></tbody></table> <h3 class="title" data-v-a2166642>事件</h3> <table class="table" data-v-a2166642><thead data-v-a2166642><tr data-v-a2166642><th data-v-a2166642>事件名</th> <th data-v-a2166642>说明</th> <th data-v-a2166642>回调参数</th></tr></thead> <tbody data-v-a2166642><tr data-v-a2166642><td data-v-a2166642>on-drop</td> <td data-v-a2166642>将文件拖拽至上传区域后触发</td> <td data-v-a2166642>
+          (file: 当前拖拽文件)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>selected-files</td> <td data-v-a2166642>选择完文件后触发</td> <td data-v-a2166642>
+          (files: 选择的文件)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-remove</td> <td data-v-a2166642>文件删除后触发</td> <td data-v-a2166642>
+          (file: 删除的文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-preview</td> <td data-v-a2166642>点击文件列表文件时触发</td> <td data-v-a2166642>
+          (file: 点击的文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-exceeded-size</td> <td data-v-a2166642>上传文件大小超过指定大小时触发</td> <td data-v-a2166642>
+          (file: 超过指定大小的文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-exceeded</td> <td data-v-a2166642>上传文件数量超出指定数量时触发</td> <td data-v-a2166642>
+          (file: 当前上传文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-success</td> <td data-v-a2166642>文件上传成功时触发</td> <td data-v-a2166642>
+          (res: 服务器返回的数据，file: 上传成功的文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-error</td> <td data-v-a2166642>文件上传失败时触发</td> <td data-v-a2166642>
+          (err: 错误原因，file: 上传失败的文件, fileList: 当前文件列表)
+        </td></tr> <tr data-v-a2166642><td data-v-a2166642>on-progress</td> <td data-v-a2166642>
+          文件上传时触发，支持
+          <a href="https://developer.mozilla.org/zh-CN/docs/Web/API/XMLHttpRequest/upload" data-v-a2166642>XMLHttp​Request​.upload</a>
+          的浏览器才会触发
+        </td> <td data-v-a2166642>
+          (file: 上传的文件, fileList: 当前文件列表)
+        </td></tr></tbody></table> <h3 class="title" data-v-a2166642>submit slot</h3> <p data-v-a2166642>
+    submit 插槽是一个带有slot-scope 特性的插槽，接收的 prop 对象中提供
+    submit方法用于上传文件。
+  </p></div></div> <div class="page-edit"><!----> <!----></div> <div class="page-nav"><p class="inner"><span class="prev">
+        ←
+        <a href="/Minimalist_UI_Document/components/table.html" class="prev">
+          Table 表格
+        </a></span> <span class="next"><a href="/Minimalist_UI_Document/components/sticky.html">
+          Sticky 粘性定位
+        </a>
+        →
+      </span></p></div> </div> <!----></div></div>
+    <script src="/Minimalist_UI_Document/assets/js/app.74078fcb.js" defer></script><script src="/Minimalist_UI_Document/assets/js/43.d2a21dc4.js" defer></script><script src="/Minimalist_UI_Document/assets/js/21.3777848e.js" defer></script>
+  </body>
+</html>
