@@ -3,7 +3,7 @@ module.exports = {
   title: 'Minimalist UI',
   description: '一个基于Vue.js构建的轻量，可靠的UI组件库',
   head: [
-    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: `https://user-gold-cdn.xitu.io/2019/4/24/16a4ede11385c558?w=900&h=900&f=png&s=111733` }]
+    ['link', { rel: 'shortcut icon', type: "image/x-icon", href: '/icon.png' }]
   ],
   themeConfig: {
     nav: [
