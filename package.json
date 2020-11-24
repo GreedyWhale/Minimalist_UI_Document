@@ -22,7 +22,7 @@
   "homepage": "https://github.com/GreedyWhale/Minimalist_UI_Document#readme",
   "dependencies": {
     "@csr/m_ui": "^1.0.2",
-    "highlight.js": "^9.15.6",
+    "highlight.js": "^10.1.2",
     "vuepress": "^0.14.11"
   }
 }
